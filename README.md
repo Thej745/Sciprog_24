@@ -8,8 +8,8 @@
 This is my repo for 24/25 Scientific Programming Concepts
 
 
-Practical 2: Examining Floating point Arthemetic
-Practical 3: Using loops to calculate area under the graph
+Practical 2: Examining Floating point Arthemetic\
+Practical 3: Using loops to calculate area under the graph\
 Practical 4: Calculating the value of tan(x)\
 Practical 5: Program that displays the Fibonacci series upto n
 	     Computing the Inverse Hyperbolic Tangent function using 2 method\
