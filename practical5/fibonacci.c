@@ -19,5 +19,6 @@ int main() {
         printf("%d ", a);
         fibonacci_step(&a, &b);
     }
+    printf("\n");
     return 0;
 }
