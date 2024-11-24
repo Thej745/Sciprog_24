@@ -14,10 +14,8 @@
 ## Part 2: Summation
 
 1. Use the program `Sum.c` (for C) or `Sum.f90` (for Fortran).
-2. Complete the code to calculate the sum:
-   \[
-   1 + \frac{1}{2} + \frac{1}{3} + \frac{1}{4} + \cdots + \frac{1}{1000}
-   \]
+2. Complete the code to calculate the sum: \
+1 + 1/2 + 1/3 + 1/4 + ... + 1/1000
 3. Print out the difference between two computed sums (`sum1` and `sum2`).
 4. Analyze:
    - Is there a difference between `sum1` and `sum2`?

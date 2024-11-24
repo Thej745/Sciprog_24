@@ -1,23 +1,53 @@
+## Exercises
 
-# fibonacci.c
-To compile and run the code run this command
+### 1. Fibonacci Series Program
+- Create a program that displays the Fibonacci series up to `n`.
+  
+  - The formulae for the Fibonacci series are:
+    - F(n) = F(n-1) + F(n-2)
+    - F(0) = 0
+    - F(1) = 1
+  
+  1. Get the user to enter the value of `n`.
+  2. Create a function that takes two arguments. On input, the arguments are F(n-1) and F(n-2). On exit, they should become F(n) and F(n-1).
+  3. Use a loop to find the whole series up to `n`.
+  4. Print out the series.
+
+### 2. Inverse Hyperbolic Tangent Function
+- The Inverse Hyperbolic Tangent function can be calculated on a computer in several ways. Different methods have different performance in terms of speed, accuracy, precision, and range of accepted input values. Assume that both methods accept only real values whose absolute value is less than 1.
+
+- The hyperbolic arc tangent can be expressed as a Maclaurin series, as shown below:
+
+  arctanh(x) = sum from n=0 to infinity of [(x^(2n+1)) / (2n+1)], where |x| < 1
+
+- Another way to calculate the hyperbolic arc tangent is using natural logarithms:
+
+  arctanh(x) = (1/2) * [ ln(1 + x) - ln(1 - x) ], where |x| < 1
+
+1. Get the user to enter a real positive number `delta`.
+2. Implement a function `artanh1(x)` to approximate the Maclaurin series. Since the series is infinite, set the function to stop when the element in the series is smaller than a given precision, `delta`.
+3. Implement a function `artanh2(x)` using the natural logarithm approach. Remember that natural logarithms are already implemented in the language's standard math libraries.
+4. Write a `main` function that will calculate arctanh(x) where x is between `-0.9` and `0.9` and sampled every `0.01`, using both methods. Store the results for both methods in separate arrays.
+5. Compare the accuracy of each method with each other (to 10 significant figures).
+## Code Instructions for Both Programs
+
+### Compile and Run `fibonacci.c` and `arctanh.c`
+Use the following commands to compile and execute the codes.
+
 ```{bash}
 gcc fibonacci.c -o fibonacci
 ./fibonacci
 ```
-## Output
 ```
 Enter the value of n: 10
 0 1 1 2 3 5 8 13 21 34
 ```
 
-# arctanh.c
-To compile and run the code run this command
 ```{bash}
 gcc arctanh.c -o arctanh
 ./arctanh
 ```
-## Output
+
 ```
 Enter a positive real number delta
 .001
