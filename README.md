@@ -14,6 +14,6 @@ Practical 4: Calculating the value of tan(x)\
 Practical 5: Program that displays the Fibonacci series upto n
 	     Computing the Inverse Hyperbolic Tangent function using 2 method\
 Practical 6: Matrix multiplication and using Make file to compile the files
-Practical 7: Dynamically allocating arrays, and using pointer
-Practical 8: analysing recursive functions using gcd
-Practical 9: Reading input from file and checking if matrix is magic square
+Practical 7: Dynamically allocating arrays, and using pointer\
+Practical 8: analysing recursive functions using gcd\
+Practical 9: Reading input from file and checking if matrix is magic square\
